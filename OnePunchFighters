@@ -1,0 +1,52 @@
+['Version 1.0.5'] = {
+    ['Fixed'] = {
+        '- AutoFarm - Singular'
+    };
+    ['Added'] = {
+        '+ Farming NPC [Boss] when boss dies, goto Auto';
+        ' Boss Spawns, repeat'
+    };
+};
+['Version 1.0.4'] = {
+    ['Added'] = {
+        '+ Auto Quest';
+        '+ Farm Unlimited';
+        '+ Auto Clickers';
+    };
+};
+['Version 1.0.3'] = {
+    ['Added'] = {
+        '+ Select Luck Type to Use on Raid when "UseLuck" is Enabled; Can now choose Boost or Elixir';
+        '+ Kill Farm';
+        '+ Raid Timer';
+    };
+    ['Removed'] = {
+        '- AutoFarm "BypassZone" for as it does not work anymore and can be misleading';
+        '- Meteor Fragments "BypassZone" for as it does not work anymore and can be misleading';
+    };
+};
+['Version 1.0.2'] = {
+    ['Fixed'] = {
+        '- When Defeating all enemies in an area before any more respawn, player gets stuck';
+        '- Annoying Prints I left in';
+        '- AutoBuy, now Buys faster according to users stats or passes';
+    };
+    ['Added'] = {
+        '+ For NearMe, instead or turning off AutoFarm or turning On Singular, ';
+        ' now Near Me changes another boolean instead of Player usable settings';
+        ' Feature still works as intended';
+        '';
+        '+ Near Status, lets you know when the "NearAction" is Enabled or Disabled';
+        '(Switch To Singular) or (Stop Farming)';
+    };
+};
+['Version 1.0.1'] = {
+    ['Fixed'] = {
+        '- When Defeating all enemies in an area before any more respawn, player gets stuck';
+    };
+};
+['Version 1.0.0'] = {
+    ['Added'] = {
+        '+ Script';
+    };
+};
