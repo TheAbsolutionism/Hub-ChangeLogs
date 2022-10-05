@@ -3,8 +3,7 @@
         '- AutoFarm - Singular'
     };
     ['Added'] = {
-        '+ Farming NPC [Boss] when boss dies, goto Auto';
-        ' Boss Spawns, repeat'
+        '+ Farming NPC [Boss] when boss dies, Does Area Selected, Boss Spawns, repeat';
     };
 };
 ['Version 1.0.4'] = {
@@ -32,12 +31,8 @@
         '- AutoBuy, now Buys faster according to users stats or passes';
     };
     ['Added'] = {
-        '+ For NearMe, instead or turning off AutoFarm or turning On Singular, ';
-        ' now Near Me changes another boolean instead of Player usable settings';
-        ' Feature still works as intended';
-        '';
-        '+ Near Status, lets you know when the "NearAction" is Enabled or Disabled';
-        '(Switch To Singular) or (Stop Farming)';
+        '+ For NearMe, instead or turning off AutoFarm or turning On Singular, now Near Me changes another boolean instead of Player usable settings. Feature still works as intended';
+        '+ Near Status, lets you know when the "NearAction" is Enabled or Disabled (Switch To Singular) or (Stop Farming)';
     };
 };
 ['Version 1.0.1'] = {
