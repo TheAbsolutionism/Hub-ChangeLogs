@@ -1,0 +1,145 @@
+return {
+  ['Version 1.1.6'] = {
+      ['Fixed'] = {
+          '- GUI Not Popping Up!';
+          '- Hopefully Loadstring of the GUI Library';
+      };
+  };
+  ['Version 1.1.5'] = {
+      ['ReWorked'] = {
+          '= Library';
+      };
+      ['Added'] = {
+          '+ Server LB orders players by Overall Power (Right Click on "A" Button to see settings)';
+      };
+      ['Changed'] = {
+          '~ Saving Champions, now a List Selection, click to save will see a checkmark';
+          '   (Does reset the list of champions had saved before from old one)';
+          '~ Sell Rarities correspond to Rarity TextColor';
+      };
+  };
+  ['Version 1.1.4'] = {
+      ['ReWorked'] = {
+          '= Library';
+      };
+      ['Added'] = {
+          '+ Library Details, hover over any option of GUI to get information details of option hovering over';
+          '+ Moving Windows now go back to position last had them when re-opening GUI';
+          '+ TopButton, LeftClick will Show and Hide the Main GUI and closes the Settings GUI if open';
+          '+ TopButton, RightClick will Show and Hide the Settings GUI and closes the Main GUI if open';
+          '+ Settings GUI';
+          '+ Show and Hide for each Window created';
+          '+ Details Toggle, Show and Hide Details Window';
+          '+ Reset Windows Positions, when moved the Windows Positions of Main GUI, this will reset them';
+          '+ Shutdown, destroys the GUI and disables all functions of script';
+      };
+  };
+  ['Version 1.1.3'] = {
+      ['Added'] = {
+          '+ Intro Dialogue on script execute';
+          '   (Turn off in Script Settings)';
+      };
+  };
+  ['Version 1.1.2'] = {
+      ['ReWorked'] = {
+          '= Click NPCs';
+          '   (Does not spam click on NPCs anymore)';
+          '   (Clicks if meet Requirements to Recieve Next Quest)';
+          '   (Only clicks if Quest currently on is finished)';
+          '   (Turns off Click for NPC if Finished All Quests for that NPC)';
+          '';
+          '   (Can Keep turned ON, with no Dialogue Pop-Ups until able to click)';
+      };
+  };
+  ['Version 1.1.1'] = {
+      ['Fixed'] = {
+          '- Executing in Tournament';
+      };
+      ['Added'] = {
+          '+ More Base functions into Tournament';
+      };
+  };
+  ['Version 1.1.0'] = {
+      ['Added'] = {
+          '+ Devil Fruit Finder';
+          '   (When turned on, if a Devil Fruit is spawned, Notification will ask if you want to TP to it, click button)';
+          '+ Stats Update in Stats Frame with Pop-Ups Off';
+          '   (People kept saying AutoFarm doesnt work, even though I said if you turn Pop-Ups on or manually train, it will update the Stats Frame)';
+          '   (People dont read the DETAILS or NOTES and complain of something I already stated)';
+          ' ';
+          '+ [On Respawn] Section';
+          '+ Select Special';
+          '+ Summon Special';
+          '   (Selecting Special and turning on Summon, will Summon the Selected Special when you respawn)';
+          '+ Select Champion';
+          '+ Summon Champion';
+          '   (Selecting Champion and turning on Summon, will Summon the Selected Champion when you respawn)';
+          '   (List will only provide with Champions in inventory)';
+          ' ';
+          '+ [Special Summons] Section';
+          '+ 4 Dropdowns to Select Specials';
+          '+ 4 Binds to use to Summon Selected Special Above';
+          '   (Game has 10 Specials, but only has 6 binds, This makes it where you dont have to change the placement)';
+          '   (Attempt to put same Special in each Selection will not work)';
+      }
+  };
+  ['Version 1.0.5'] = {
+      ['Fixed'] = {
+          '- Collect Dragon Balls';
+      };
+      ['Added'] = {
+          '+ [Tournament] Auto Vote';
+          '+ [Tournament] Mode Selection';
+          '   (Whilst Auto Vote being ON, will automatically vote for selected Mode from Dropdown)';
+          '   (While AFK, use this to keep earning Competitive Points)';
+          '+ [Tournament] Back Spawn';
+          '+ [Tournament] Back Distance';
+          '   (Whilst BackSpawn being ON, estimating Distance from Character to Spawn, if over Set Distance from Slider, will TP you back)';
+          '   (Use this to TP back to Spawn, while being put into GameMode)';
+          '+ [Tournament] Juggernaut Reset';
+          '   (Whilst JugReset being ON, when you become Juggernaut, this will kill your character)';
+      };
+  };
+  ['Version 1.0.4'] = {
+      ['Fixed'] = {
+          '- Synapse Update broke a function, had to change it to something else for it to work';
+      };
+      ['Added'] = {
+          '+ Collect Dragon Balls';
+          '   (If do not have Quest for it, wil turn off)';
+      };
+  };
+  ['Version 1.0.3'] = {
+      ['Fixed'] = {
+          '- Selecting Players, Was Not Refreshing';
+      };
+      ['Added'] = {
+          '+ Auto Lock Saved';
+          '   (Champions owned, that are in Saved List, will be Auto Locked)';
+          '+ Access to Tournament Dimension, (Only Few function)'
+      };
+      ['ReWorked'] = {
+          '= Auto Sell Champions, (Should be more efficient and less buggy now)';
+      };
+  };
+  ['Version 1.0.2'] = {
+      ['Fixed'] = {
+          '- Typo in AutoQuest, throwing an error and crashing script';
+          '- Saving and Unsaving Champions';
+      };
+  };
+  ['Version 1.0.1'] = {
+      ['Fixed'] = {
+          '- Open ClassShop';
+          '- Dimension Teleports';
+          '- Saving and Loading Custom Locations';
+      };
+      ['Added'] = {
+          '+ Script Version Checker';
+          '+ Update Prints';
+          '+ Saving Custom Locations in one Dimension dont transfer to other dimensions';
+          '+ Custom Locations are still saved from every dimension, only access saved locations of dimension currently in';
+          '+ Dropdown of Saved Locations, will load last location selected of dimension currently in';
+      };
+  };
+}
