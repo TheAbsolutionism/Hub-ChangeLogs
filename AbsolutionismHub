@@ -1,0 +1,18 @@
+return {
+    ['Version 1.0.0'] = {
+        ['Added'] = {
+            '+ Rainbowz, Makes everything Rainbow';
+            '+ All Games Auto Execute, Auto Executes script on Hub launch, without turning ON individual AutoExecute';
+            '+ Terminate Script on Hub Shutdown, Shutting Down Hub will also Shutdown Game Script (IF Executed)';
+            '+ Script Deconverter, Change this # to determine how fast to "load" scripts, higher number = faster, lower = slower! RECOMMENDED: For Low-End GPU, make the # lower as will cause lag';
+            '+ Join Discord Button, Setting up a Discord Server';
+            '+ Change Logs For Hub';
+            '';
+            '+ Version for Script (IF Script has more than 1 Version)';
+            '+ Change Logs For Script (IF Script has more than 1 Version)';
+        };
+        ['Fixed'] = {
+            '- Settings Saving and Loading';
+        };
+    };
+};
