@@ -1,0 +1,40 @@
+return {
+    ['Version 1.0.4'] = {
+        ['Fixed'] = {
+            '- Script';
+        };
+    };
+    ['Version 1.0.3'] = {
+        ['ReWorked'] = {
+            '= Library';
+        };
+        ['Added'] = {
+            '+ Server LB, organizes players of Leading Stat (Strength)';
+            '   (New Players Joining and replacing players when gain stat no work :/ )';
+        };
+        ['Changed'] = {
+            '~ Selecting Mobs (Hope yall like this better)';
+        };
+    };
+    ['Version 1.0.2'] = {
+        ['Added'] = {
+            '+ New ArcaneKnight Class Moves';
+        };
+        ['Attempted'] = {
+            '~ ReWrite AutoMoves, as I manually insert the moves into a table for script to identify what moves need to be rewritten but did nor work'
+        };
+        ['WorkingOn'] = {
+            '~ PlayerList, shows strongest - weakest players in current server';
+        };
+    };
+    ['Version 1.0.1'] = {
+        ['Added'] = {
+            '+ Demon + Beerus(G.O.D) Attacks to Auto Attack'
+        };
+    };
+    ['Version 1.0.0'] = {
+        ['Added'] = {
+            '+ Script Released';
+        };
+    };
+}
