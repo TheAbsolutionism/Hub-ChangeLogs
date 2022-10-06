@@ -1,4 +1,24 @@
 return {
+    ['Version 1.0.6'] = {
+        ['Fixed'] = {
+            '- AutoFarm - Dying randomly (dont know if my script or game)';
+            '- NearMe (Maybe)';
+        };
+        ['Changed'] = {
+            '# AutoQuest, More smoother, Daily Quests Combined into 1, works in tandom to do both Main and Daily. May need more improving!';
+            '# AutoFarm, more smoother';
+            '# MaxEvolve, made it where when bag gets full in general (not only from Autobuying). Will Turn ON AutoEvolve';
+            '# CollectItems, only collects items in Areas Unlocked';
+        };
+        ['Added'] = {
+            '+ Evolve to Rank Bald';
+            '+ BuyBoost, with COINS';
+            '+ Select Boost to Buy';
+        };
+        ['Removed'] = {
+            '? AutoDailyQuest, no seperate Quest Toggles'
+        };
+    };
     ['Version 1.0.5'] = {
         ['Fixed'] = {
             '- AutoFarm - Singular'
