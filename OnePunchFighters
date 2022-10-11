@@ -1,4 +1,13 @@
 return {
+    ['Version 1.0.7'] = {
+        ['Added'] = {
+            '+ Auto Aura';
+            '+ Super Raid, combined into "Auto Meteor Raid" ';
+            '+ Farm Hop, Server Hopping for bosses, only works for bosses. if boss not selected, will still continue to hop';
+            '+ Wait Hop, set time for farm hop to wait until hop';
+            '+ Hop Time, displays time left until hop';
+        };
+    };
     ['Version 1.0.6'] = {
         ['Fixed'] = {
             '- AutoFarm - Dying randomly (dont know if my script or game)';
