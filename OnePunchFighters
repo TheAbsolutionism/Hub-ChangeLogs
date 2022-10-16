@@ -1,4 +1,21 @@
 return {
+    ['Version 1.0.8'] = {
+        ['Added'] = {
+            '+ #s next to Area Names in "Select Area"';
+            '+ #s next to Area Names in "Teleport To Area"';
+            '+ God Rank Evolution';
+        };
+        ['Fixed'] = {
+            '- Areas in GENERAL, Messed my stuff up';
+            '- Auto Aura';
+            '- Prices for Evolutions';
+            '- Auto Quest';
+        };
+        ['Notes'] = {
+            '? I dont know about these halloween areas, I havent gained access to it, to do so';
+            ' Will Fx/Update when I do';
+        }
+    };
     ['Version 1.0.7'] = {
         ['Added'] = {
             '+ Auto Aura';
