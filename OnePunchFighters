@@ -1,4 +1,28 @@
 return {
+    ['Version 1.0.9'] = {
+        ['Added'] = {
+            '+ Do Special Areas, Event Areas are seperate from regular Areas, turning ON will only do Special Areas, must turn OFF to do regular areas';
+            '+ BuyElixirs, will buy elixirs that are selected once reached it SET minimum';
+            '+ PickElixirs Buy, select any or all elixirs to be bought';
+            '+ SelectElixir Buy, select to change min and max settings different for each';
+            '+ ElixirMin, Set minimum amount to have for Elixir Selected, to be bought. Can personalize each elixir';
+            '+ ElixirMin, Set maximum amount to have for Elixir Selected, to stop being bought. Can personalize each elixir';
+            '++ Minimun Must be lower than Maximum or wont buy';
+            '+ UseElixirs, Will use elixirs that are selected when their time runs out';
+            '+ PickElixirs Use, select any or all elixirs to be used';
+            '+ SelectElixir, Use, select to change # to use for each Elixir, customizabe for each, each save, each have own setting';
+            '+ ElixirUse, set # of selected Elixir to know how many to use';
+            '-- PLEASE READ DETAILS FROM THE "DETAILS" WINDOW!!! DO NOT DM ME ON HOW TO USE IT!!!';
+        };
+        ['Changed'] = {
+            '# Auto Meteor Raids, now you can select which raids you want to do';
+            '# Raid Timers, just mimicking game stuff';
+        };
+        ['Fixed'] = {
+            '- Farm Unlimited';
+            '- Everything idk';
+        };
+    };
     ['Version 1.0.8'] = {
         ['Added'] = {
             '+ #s next to Area Names in "Select Area"';
