@@ -1,4 +1,23 @@
 return {
+    ['Version 1.1.0'] = {
+        ['Fixed'] = {
+            '- Some Heroes not popping up in Delete/Save Pet Lists';
+            '- Raid Timers not working after Raid Spawns';
+            '- Auto Meteors';
+            '- When Having "Do Special Areas" turned ON, could not do Area if wasnt "Auto"';
+            '- When Manually Selecting Unlimited Zone in "SelectArea" was throwing an error / saying you do not own this Area';
+            '- Auto Use Luck on Raid (Elixirs)';
+        };
+        ['Added'] = {
+            '+ Farm Bosses, farms mini + bosses, takes priority over FarmNPC';
+            '+ Select Bosses, select the mini and/or bosses you want to farm, each "Boss" or "Name" has a BOSS and a MINIBOSS';
+            '+ Customizable Priorities, can now change what takes priority over what, 1 = HIGHEST / Takes Priority over everything';
+            '+ Reset Priorties, Even though its customizable, I will still be doing Default Priorities that I feel work best for the script, click "Reset" to reset to Default';
+        };
+        ['Notes'] = {
+            '? "Do Special Areas" only affects the "Auto" of the Select Area';
+        };
+    };
     ['Version 1.0.9'] = {
         ['Added'] = {
             '+ Do Special Areas, Event Areas are seperate from regular Areas, turning ON will only do Special Areas, must turn OFF to do regular areas';
