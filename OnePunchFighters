@@ -1,4 +1,33 @@
 return {
+    ['Version 1.1.1'] = {
+        ['Fixed'] = {
+            '- Priorities';
+            '- Use Elixirs (Auto)';
+        };
+        ['Added'] = {
+            '+ Added "Other" in "Select Area"';
+            '+ Auto Rank Priority';
+            '+ Raid Luck Select, select which raids to use Luck on';
+            '+ Luck Select, "Both" can now use both boost and elixir';
+            '+ Auto Defense Priority';
+            '+ Defense Timer';
+            '+ Auto Defense, new Priority #1. AutoFarms the mobs in Defense with Teleporting';
+            '+ Defense Settings';
+            '++ Distance';
+            '++ Spawn Sit, Will place you at the spawn point of where the mobs spawn and stay there, Instead of TPing you to Mob';
+            '+++ Think of it as "Singular" for "AutoFarm" except for Defense, Granted any mobs that get too far away will not be able to kill';
+            '+ Raids are now Automatically added into script if found in game. Will be useful if it comes to me not updating this script anymore';
+            '+ Individual Max Hits for every Raid, insert a # of the max amount of hits for Raid, script will do calculation, if it takes more punches tham "Max Punch" set, will not do Raid.';
+            '++ If "Require Hits" is Enabled';
+        };
+        ['Notes'] = {
+            '? When Adding a New Priority, unfortunatley, Priorities must be RESET to default. Sorry for any inconveniences this and future updates will cause';
+            '? Having "Other" selected will not do regular AutoFarm and instead only "Farm" Bosses/NPCs that are selected and spawned. Once none are spawned can do other features';
+            '? If you wish to have it where you AutoFarm Bosses and then AutoBuy, simply make AutoFarm a higher priority than AutoBuy, same applies for AutoEvolve and CollectItems';
+            '? With the New Customizable Priority System, for Evolving, you can simply make Evolve a higher priority so when you Evolve and dont have resources do other actions such as CollectItems and obtain resources';
+            '? If the Super Defense Mode is completely different or seperate from the now Defense mode, expect bugs or errors, as in the case, I will have to rewrite the code depending on how the Super Defense is inserted into the game';
+        };
+    };
     ['Version 1.1.0'] = {
         ['Fixed'] = {
             '- Some Heroes not popping up in Delete/Save Pet Lists';
