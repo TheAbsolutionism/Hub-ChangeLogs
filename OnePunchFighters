@@ -1,4 +1,24 @@
 return {
+    ['Version 1.1.2'] = {
+        ['Added'] = {
+            '+ No Public, a better version to detect if the server is public or private, if enabled, and put in public server, will kick you';
+            '+ Customizable XYZ Positioning for Unlimited Zone, Use "Y" Positioning at own risk';
+        };
+        ['Fixed'] = {
+            '- Auto Meteors, breaking script';
+            '- Dying (Hopefully)';
+            '- Max Settings, didnt show which "Box" was for which Raid, and only said "Max Hits"';
+            '- Distance for AutoDefense';
+            '- Bugs/Errors/Script Breaking (Hopefully)';
+            '- EVERYTHING (HOPEFULLY)';
+        };
+        ['Changed'] = {
+            '# Text of "Farm Unlimited" to "[Auto] - Unlimited"';
+        };
+        ['Notes'] = {
+            '? Public Kick, Re-purposed for players who farm in Public Servers intentionally, especially when in a public server alone initially and people start joining';
+        };
+    };
     ['Version 1.1.1'] = {
         ['Fixed'] = {
             '- Priorities';
