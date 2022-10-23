@@ -1,7 +1,6 @@
 return {
     ['Version 1.1.2'] = {
         ['Added'] = {
-            '+ No Public, a better version to detect if the server is public or private, if enabled, and put in public server, will kick you';
             '+ Customizable XYZ Positioning for Unlimited Zone, Use "Y" Positioning at own risk';
         };
         ['Fixed'] = {
