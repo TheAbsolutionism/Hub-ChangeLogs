@@ -4,6 +4,7 @@ return {
             '+ Server Hop';
             '+ Select Hop For';
             '+ Time for Each Hop';
+            '+ Advanced Hop for Defense, set minutes and seconds, if Defense Timer is above will Hop';
             '+ Strongest Hero, tells you what the strongest hero is, how to get it, where to get it';
             '+ Strongest Relic, tells you what the strongest relic is, sorts by TOTAL boost multipliers collectively';
             '+ Strongest Avatar, tells you what the strongest avatar is and how to get it (somewhat)';
