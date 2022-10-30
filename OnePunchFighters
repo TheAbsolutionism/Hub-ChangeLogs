@@ -1,4 +1,43 @@
 return {
+    ['Version 1.1.3'] = {
+        ['Added'] = {
+            '+ Server Hop';
+            '+ Select Hop For';
+            '+ Time for Each Hop';
+            '+ Strongest Hero, tells you what the strongest hero is, how to get it, where to get it';
+            '+ Strongest Relic, tells you what the strongest relic is, sorts by TOTAL boost multipliers collectively';
+            '+ Strongest Avatar, tells you what the strongest avatar is and how to get it (somewhat)';
+            '+ BuyWait, a wait time when AutoBuying, as having the max summonspeed, the script will lag insanely, this is the games fault not mine, testing ther AutoSummon in game without script also lags';
+            '+ Reduce Buy Lag, another tool to help with the Lag, disables Star Animation';
+            '+ "All" to Delete Pets [Name] - makes it easier to delete all instead of selecting each and every one, still wont be deleted if have saved in Save Pets [Name]';
+            '+ "All" to Save Pets [Name] - makes it easier to save all pets instead of selecting each and every one, I really see no point to this one, but did just incase'
+        };
+        ['Fixed'] = {
+            '- AutoQuest, trying to obtain a quest but either couldnt or was trying to obtain quest from another NPC while being Teleported to different NPC';
+            '- Dying!!! like 90% sure I finally fixed it with this new solution, hopefully';
+            '- Use Elixirs';
+            '- Auto Quest';
+        };
+        ['Changed'] = {
+            '# Re-Wrote AutoMeteors, smoother now';
+            '# Re-Wrote AutoDelete, smoother now';
+            '# AutoEvolve, made it where now for example if you have 500 Crab Men (No Rank) will turn all into Rank B before turning any to Rank A';
+            '# Areas in Select Area and Teleport now correspond to their actual Area, helps telling the different between Max regular area and the Special Areas';
+            '# When AutoBuying, if not enough coins or gems will sends a notification (every 10 seconds) so you know why its not buying, and not spazz out like me';
+            '# When AutoBuying, if not enough bag space for more sends a notification (every 10 seconds) so you know why its not buying, and not spazz out like me';
+            '# Collect Items, made it to where you can do other things/features when collected everything that you can';
+            '# When getting a notification, actually tells you what feature its coming from';
+        };
+        ['Removed'] = {
+            '= Farm Hop; Changed into Server Hop';
+        };
+        ['Notes'] = {
+            '? Server Hop, Select which aspect to hop for, NPCs,Bosses,Meteors,Raids,Defense. Can set a customizable wait time for each, but can only hop for 1, can still do all aspects, but server hop will only wait for selected aspect';
+            '? If you join a server and hopping for Raids, the time you have set for raid (Default 30 seconds) will start countdown, however if a Raid spawns before countdown finishes, will stop countdown';
+            '? Once Raid is finished, it will RESTART countdown, not resume from time left at when raid spawned';
+            '? There is no way for me to make it where the script can automatically detect who and where to obtain relic from';
+        };
+    };
     ['Version 1.1.2'] = {
         ['Added'] = {
             '+ Customizable XYZ Positioning for Unlimited Zone, Use "Y" Positioning at own risk';
