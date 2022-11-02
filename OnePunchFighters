@@ -1,4 +1,18 @@
 return {
+    ['Version 1.1.4'] = {
+        ['Added'] = {
+            '+ Super Defense';
+            '+ Select Defenses To Do';
+            '+ Super Defense Timer';
+            '+ Script capability to automatically add new Defenses';
+            '+ Server Hop, Select Defenses in Advanced Defense';
+            '+ Details, for Advanced Stuff';
+            '+ A wait timer when Hopping for Defense, when using Advanced version';
+        };
+        ['Fixed'] = {
+            '- On other programs, Script would Error, with one of my start up processes, added an alternative';
+        };
+    }; 
     ['Version 1.1.3'] = {
         ['Added'] = {
             '+ Server Hop';
